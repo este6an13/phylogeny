@@ -1,0 +1,37 @@
+#NEXUS
+[R-package PHYTOOLS, Mon Apr 24 20:06:48 2023]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 12;
+	TAXLABELS
+		Gorilla
+		Homo_sapiens
+		Hylobates
+		Lemur_catta
+		M._fascicularis
+		M._mulatta
+		M._sylvanus
+		Macaca_fuscata
+		Pan
+		Pongo
+		Saimiri_sciureus
+		Tarsius_syrichta
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Gorilla,
+		2	Homo_sapiens,
+		3	Hylobates,
+		4	Lemur_catta,
+		5	M._fascicularis,
+		6	M._mulatta,
+		7	M._sylvanus,
+		8	Macaca_fuscata,
+		9	Pan,
+		10	Pongo,
+		11	Saimiri_sciureus,
+		12	Tarsius_syrichta
+	;
+	TREE * UNTITLED = [&R] ((12:0.1627811342,(11:0.185276657,((7:0.06948020509,(5:0.04805187834,(8:0.01865714715,6:0.01865714715):0.02939473119):0.02142832676):0.08376561798,(3:0.1105567172,(10:0.09751680487,(1:0.05844569254,(2:0.04863082142,9:0.04863082142):0.00981487112):0.03907111232):0.01303991236):0.04268910585):0.03203083395):0.06177472373):0,4:0.1627811342);
+END;

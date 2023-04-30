@@ -1,0 +1,47 @@
+#NEXUS
+[R-package PHYTOOLS, Sun Apr 23 22:29:05 2023]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 17;
+	TAXLABELS
+		bushbaby
+		chicken
+		cow
+		duck
+		elephseal
+		hamster
+		Hare
+		human
+		marsupial
+		mouse
+		pig
+		rabbit
+		rat
+		sheep
+		tarsier
+		xenlaev
+		xentrop
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	bushbaby,
+		2	chicken,
+		3	cow,
+		4	duck,
+		5	elephseal,
+		6	hamster,
+		7	Hare,
+		8	human,
+		9	marsupial,
+		10	mouse,
+		11	pig,
+		12	rabbit,
+		13	rat,
+		14	sheep,
+		15	tarsier,
+		16	xenlaev,
+		17	xentrop
+	;
+	TREE * UNTITLED = [&R] (((15:0.06729176026,((((3:0.02498992907,14:0.02534115122):0.04197154852,11:0.07906929824):0.01204034236,5:0.06850849691):0.005541470729,(((13:0.04477591845,10:0.0545319494):0.02048166649,6:0.1000454618):0.04415810473,(((4:0.04213563564,2:0.02891350984):0.1472553649,(16:0.1293878048,17:0.1873127809):0.2484097541):0.00697883434,9:0.1933322998):0.05412358613):0.02139593612):0.01407107753):0.003771511516,((7:0.01335390632,12:0.01502024638):0.04580675726,1:0.0458619273):0.00640232862):0,8:0.05323896916);
+END;
