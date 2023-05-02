@@ -1,0 +1,13 @@
+execute primates_mito_dna.nex;
+
+log start filename=primates_mito_dna.log;
+
+Outgroup Lemur_catta;
+
+mcmc nruns=2 ngen=10000000 nchains=4 samplefreq=1000 printfreq=1000;
+
+sump burnin=20;
+
+sumt burnin=20;
+
+log stop;
